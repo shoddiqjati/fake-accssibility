@@ -1,0 +1,9 @@
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accessibilityEventTypes="typeAllMask|typeContextClicked|typeViewClicked|typeViewAccessibilityFocused|typeViewFocused|typeTouchInteractionStart|typeTouchInteractionEnd"
+    android:accessibilityFeedbackType="feedbackGeneric|feedbackHaptic|feedbackAllMask|feedbackSpoken|feedbackAudible|feedbackVisual"
+    android:accessibilityFlags="flagDefault"
+    android:canPerformGestures="true"
+    android:canRetrieveWindowContent="true"
+    android:notificationTimeout="100"
+    android:packageNames="id.miralabs.sailing.fakeaccessibilityservice"
+    android:settingsActivity="id.miralabs.sailing.fakeaccessibilityservice.MainActivity" />
